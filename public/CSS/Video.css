@@ -1,0 +1,78 @@
+@media (min-width: 600px) {
+  .VideoChoose {
+    display: grid;
+    justify-content: center;
+    grid: auto / auto auto;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 100px 0;
+  }
+  .VideoSet {
+    text-align: center;
+    padding: 0 40px;
+  }
+  .VideoSet img {
+    width: 427px;
+    height: 240px;
+    object-fit: cover;
+  }
+  #VideoLabWorkWord {
+    color: #accb46;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+  }
+  #VideoInternshipWord {
+    color: #dd1a1a;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+  }
+  .EngSub {
+    font-size: 18px;
+  }
+
+  body div p {
+    line-height: 0.8em;
+  }
+}
+@media (max-width: 600px) {
+  .VideoChoose {
+    display: grid;
+    justify-content: center;
+    grid: auto / auto;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .VideoSet {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .VideoSet img {
+    width: 380px;
+    object-fit: cover;
+  }
+  #VideoLabWorkWord {
+    color: #accb46;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+  }
+  #VideoInternshipWord {
+    color: #dd1a1a;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+  }
+  .EngSub {
+    font-size: 18px;
+  }
+
+  body div p {
+    line-height: 0.8em;
+  }
+}

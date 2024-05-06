@@ -1,0 +1,38 @@
+.GraphicSet{
+  padding: 15px;
+}
+
+.Graphic{
+  opacity: 1;
+  transition: .5s ease;
+}
+.GraphicSet:hover .Graphic{
+  opacity: 0.5;
+}
+
+@media (min-width: 600px) {
+  .GraphicSet img{
+    width:280px;
+    height:380px;
+    object-fit: cover;
+  }
+  .GraphicChoose{
+    display: grid;
+    justify-content: center;
+    grid: auto /auto auto auto;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  .GraphicSet img{
+    width:200px;
+    height:300px;
+    object-fit: cover;
+  }
+  .GraphicChoose{
+    display: grid;
+    justify-content: center;
+    grid: auto /auto auto;
+    flex-wrap: wrap;
+  }
+}

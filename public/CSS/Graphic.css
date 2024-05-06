@@ -1,0 +1,67 @@
+@media (min-width: 600px) {
+  .GraphicChoose {
+    display: grid;
+    justify-content: center;
+    grid: auto / auto auto;
+    align-items: center;
+    margin: 100px 0;
+  }
+  .GraphicSet {
+    text-align: center;
+    padding: 0 50px;
+  }
+  #GraphicPSWord {
+    color: #2a5399;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+  }
+  #GraphicAiWord {
+    color: rgb(246, 137, 20);
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0;
+    padding: 15px;
+  }
+  .EngSub {
+    font-size: 18px;
+  }
+  body div p {
+    line-height: 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  .GraphicChoose {
+    display: grid;
+    justify-content: center;
+    grid: auto / auto;
+    align-items: center;
+    margin: 30px 0;
+  }
+  .GraphicSet {
+    text-align: center;
+    margin: 10px 0;
+  }
+  #GraphicPSWord {
+    color: #2a5399;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+  }
+  #GraphicAiWord {
+    color: rgb(246, 137, 20);
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0;
+    padding: 15px;
+  }
+  .EngSub {
+    font-size: 18px;
+  }
+  body div p {
+    line-height: 1em;
+  }
+}

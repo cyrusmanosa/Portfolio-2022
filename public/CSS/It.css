@@ -1,0 +1,286 @@
+/*  D GARY: #4f4f4f */
+/*  G GARY: #9c9c9cbe */
+/* Logo Color #686868be */
+
+/* 普通 */
+@media (min-width: 600px) {
+  .item-title {
+    padding: 0 20%;
+  }
+  .year1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 510px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    background-color: #ff83a8;
+    padding: 20px;
+    img {
+      margin: 20px auto;
+      padding: 10px;
+      background-color: white;
+      border-radius: 30px;
+    }
+    p {
+      text-align: left;
+      width: 600px;
+      margin: 0 auto;
+      font-size: 18px;
+    }
+  }
+
+  .year2 {
+    background-color: #d4d4d4be;
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .year2-p1 {
+    display: grid;
+    justify-content: center;
+    grid: auto / auto auto;
+    flex-wrap: wrap;
+    align-items: center;
+    .item {
+      padding: 20px;
+      img {
+        height: 400px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .year2-p1-title {
+    width: 450px;
+    h1 {
+      color: #4f4f4f;
+      margin: 0;
+      padding: 0;
+      line-height: 40px;
+      font-weight: 900;
+    }
+    h1 span {
+      color: #ff83a8;
+      margin: 0;
+      padding: 0;
+      line-height: 40px;
+      font-size: 38px;
+      font-weight: 900;
+    }
+    h3 {
+      color: #ff83a8;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+
+  #introduce {
+    font-size: 18px;
+    color: black;
+  }
+
+  .year2-p2 {
+    background-color: white;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+  }
+
+  .year2-p2-title {
+    background-color: #ff83a8;
+    font-size: 18px;
+    width: 650px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 30px;
+    h3 {
+      color: white;
+    }
+  }
+
+  .loadimg {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    p {
+      padding-top: 20px;
+      font-size: 30px;
+      font-weight: 900;
+      color: #4f4f4f;
+      border-bottom: 1px solid #4f4f4f;
+    }
+  }
+
+  .software {
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    table,
+    tr,
+    th,
+    td {
+      border-collapse: collapse;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 2px 5px;
+    }
+  }
+
+  .software th {
+    color: #ff83a8;
+    font-weight: 900;
+    font-size: 25px;
+    width: 200px;
+  }
+}
+
+/* 細 */
+@media (max-width: 600px) {
+  .item-title {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .year1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: #ff83a8;
+    padding: 20px;
+    img {
+      max-width: 100%;
+      background-color: white;
+      border-radius: 30px;
+    }
+    p {
+      text-align: left;
+      margin: 1% 5%;
+      font-size: 18px;
+    }
+  }
+
+  .year2 {
+    background-color: #d4d4d4be;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    padding: 10px 10px 20px 10px;
+  }
+
+  .year2-p1 {
+    display: grid;
+    justify-content: center;
+    grid: auto / auto auto;
+    flex-wrap: wrap;
+    align-items: center;
+    .item {
+      padding: 10px;
+      img {
+        height: 300px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .year2-p1-title {
+    h1 {
+      color: #4f4f4f;
+      margin: 0;
+      padding: 0;
+      line-height: 40px;
+      font-weight: 900;
+    }
+    h1 span {
+      color: #ff83a8;
+      margin: 0;
+      padding: 0;
+      line-height: 40px;
+      font-size: 38px;
+      font-weight: 900;
+    }
+    h3 {
+      color: #ff83a8;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+
+  #introduce {
+    font-size: 18px;
+    color: black;
+  }
+
+  .year2-p2 {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 10px 20px 10px;
+    border-radius: 30px;
+  }
+
+  .year2-p2-title {
+    background-color: #ff83a8;
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 30px;
+    h3 {
+      color: white;
+    }
+  }
+
+  .loadimg {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    p {
+      padding-top: 20px;
+      font-size: 25px;
+      font-weight: 900;
+      color: #4f4f4f;
+      border-bottom: 1px solid #4f4f4f;
+    }
+  }
+
+  .software {
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    table,
+    tr,
+    th,
+    td {
+      border-collapse: collapse;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 2px 5px;
+    }
+  }
+
+  .software th {
+    color: #ff83a8;
+    font-weight: 900;
+    font-size: 20px;
+    width: 150px;
+  }
+}

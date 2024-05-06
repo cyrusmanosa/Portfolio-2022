@@ -1,0 +1,50 @@
+@media (min-width: 600px) {
+  .PartChoose {
+    display: grid;
+    grid: auto/auto auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .VideoInformation {
+    padding: 0 20px;
+    p {
+      font-size: 22px;
+      line-height: 1.2em;
+      color: #686868be;
+    }
+    h1 {
+      color: #686868be;
+    }
+  }
+
+  .VideoSet video {
+    width: 427px;
+    height: 240px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 600px) {
+  .PartChoose {
+    display: grid;
+    grid: auto/auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .VideoInformation p {
+    font-size: 20px;
+    line-height: 1.3em;
+    color: #686868be;
+  }
+  .VideoInformation h1 {
+    color: #686868be;
+  }
+  .VideoSet video {
+    width: 380px;
+    object-fit: cover;
+  }
+}

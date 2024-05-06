@@ -1,0 +1,48 @@
+@media (min-width: 600px) {
+  .PartChoose {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid: auto / auto auto;
+    flex-wrap: wrap;
+  }
+  #CarShowPhoto {
+    text-align: center;
+    color: #686868be;
+  }
+
+  #CarShowPhoto img {
+    max-height: 40%;
+    max-width: 40%;
+  }
+
+  .ExpoSet {
+    color: #686868be;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 600px) {
+  .PartChoose {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid: auto / auto;
+    flex-wrap: wrap;
+  }
+  #CarShowPhoto {
+    text-align: center;
+    color: #686868be;
+  }
+
+  #CarShowPhoto img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .ExpoSet {
+    margin: 10px 0;
+    color: #686868be;
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,49 @@
+@media (min-width: 600px) {
+  .PartChoose {
+    display: grid;
+    grid: auto/auto auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+  }
+  .FreelanceSet img {
+    width: 427px;
+    height: 240px;
+    object-fit: cover;
+  }
+  .FreelanceInformation {
+    padding: 0 50px;
+  }
+  .FreelanceInformation p {
+    font-size: 22px;
+    line-height: 1.3em;
+    color: #686868be;
+  }
+  .FreelanceInformation h2 {
+    color: #686868be;
+  }
+}
+@media (max-width: 600px) {
+  .PartChoose {
+    display: grid;
+    grid: auto/auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+  }
+  .FreelanceSet img {
+    width: 380px;
+    object-fit: cover;
+  }
+
+  .FreelanceInformation p {
+    font-size: 20px;
+    line-height: 0.5em;
+    color: #686868be;
+  }
+  .FreelanceInformation h2 {
+    color: #686868be;
+  }
+}

@@ -1,0 +1,82 @@
+@media (min-width: 600px) {
+  .PhotoChoose {
+    display: grid;
+    justify-content: center;
+    grid: auto / auto auto;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 60px 0;
+  }
+
+  .PhotoSet {
+    text-align: center;
+    padding: 5px 50px;
+  }
+  .PhotoSet img {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+  }
+  #PhotoColorWord {
+    color: rgb(246, 137, 20);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+  }
+  #PhotoBWWord {
+    color: #8a8a8a;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+  }
+  .EngSub {
+    font-size: 18px;
+  }
+
+  body div p {
+    line-height: 0.8em;
+  }
+}
+
+@media (max-width: 600px) {
+  .PhotoChoose {
+    display: grid;
+    justify-content: center;
+    grid: auto / auto;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .PhotoSet {
+    text-align: center;
+    padding: 5px 50px;
+  }
+  .PhotoSet img {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+  }
+  #PhotoColorWord {
+    color: rgb(246, 137, 20);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+  }
+  #PhotoBWWord {
+    color: #8a8a8a;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+  }
+  .EngSub {
+    font-size: 18px;
+  }
+
+  body div p {
+    line-height: 0.8em;
+  }
+}

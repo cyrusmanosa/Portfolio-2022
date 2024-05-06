@@ -1,0 +1,28 @@
+.container {
+  text-align: center;
+  padding: 0;
+  margin: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  letter-spacing: 15px;
+  line-height: 0.8em;
+  color: #686868be;
+}
+.BP {
+  padding-top: 10px;
+  color: #686868be;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.BP span {
+  letter-spacing: 0.9px;
+}
+
+h1 span {
+  font-size: 18px;
+  letter-spacing: 10px;
+}
