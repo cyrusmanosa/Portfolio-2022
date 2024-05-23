@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "staging": "profile-ce15f"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

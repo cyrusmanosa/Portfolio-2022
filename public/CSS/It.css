@@ -4,17 +4,39 @@
 
 /* 普通 */
 @media (min-width: 600px) {
+  .btn-git1 {
+    background-color: #4f4f4f;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .btn-git2 {
+    background-color: #4f4f4f;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
   .item-title {
     padding: 0 20%;
   }
   .year1 {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     width: 800px;
-    height: 510px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px auto;
     border-radius: 30px;
     background-color: #ff83a8;
     padding: 20px;
@@ -28,6 +50,7 @@
       text-align: left;
       width: 600px;
       margin: 0 auto;
+      margin-bottom: 20px;
       font-size: 18px;
     }
   }

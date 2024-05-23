@@ -8,10 +8,27 @@
   list-style-type: none;
   animation: fadeInAnimation ease 1.3s;
   animation-iteration-count: 1;
-  /* box-sizing: content-box; */
   user-select: none;
 }
+.logo a:link,
+footer a:link {
+  color: #686868be;
+}
 
+.logo a:visited,
+footer a:visited {
+  color: #686868be;
+}
+
+.lgoo a:hover,
+footer a:hover {
+  color: #686868be;
+}
+
+.lgoo a:active,
+footer a:active {
+  color: #686868be;
+}
 /* head */
 
 ul {
