@@ -12,7 +12,7 @@
 
 <br>
 
-### リング
+### リンク
 > https://profile-ce15f.web.app/
 
 ### 不測のところは
