@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "profile-ce15f",
     "public": "public",
     "ignore": [
       "firebase.json",
