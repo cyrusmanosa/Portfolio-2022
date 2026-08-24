@@ -16,6 +16,9 @@ h1 {
   color: #686868be;
   letter-spacing: 2px;
   font-size: 20px;
+  a {
+    color: #686868be;
+  }
 }
 
 .BP span {
