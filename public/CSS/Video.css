@@ -1,11 +1,18 @@
 @media (min-width: 600px) {
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .VideoChoose {
     display: grid;
     justify-content: center;
     grid: auto / auto auto;
     flex-wrap: wrap;
     align-items: center;
-    margin: 100px 0;
+    width: 100%;
+    margin: 0;
   }
   .VideoSet {
     text-align: center;

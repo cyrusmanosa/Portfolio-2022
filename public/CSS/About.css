@@ -57,7 +57,7 @@
     border-radius: 50%;
     background: #4f4f4f;
     margin-top: 15px;
-    z-index: 9999;
+    z-index: 2;
   }
 
   .information {
@@ -128,93 +128,81 @@
   .container {
     position: relative;
     overflow: hidden;
+    width: auto;
+    margin: 32px 16px;
+    padding: 8px 0;
   }
 
   .container:before {
     content: "";
     position: absolute;
     top: 0;
-    left: 50%;
-    margin-left: -1px;
+    left: 18px;
     width: 2px;
     height: 100%;
     background: #ccd1d9;
     z-index: 1;
   }
 
-  .timeline-block {
-    width: -webkit-calc(50% + 8px);
-    width: -moz-calc(50% + 8px);
-    width: calc(50% + 8px);
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -moz-box-pack: justify;
-    justify-content: space-between;
-    clear: both;
-  }
-
-  .timeline-block-right {
-    float: right;
-  }
-
+  .timeline-block,
+  .timeline-block-right,
   .timeline-block-left {
-    float: left;
-    direction: rtl;
+    position: relative;
+    float: none;
+    width: 100%;
+    display: block;
+    direction: ltr;
+    clear: both;
+    padding: 0 8px 28px 42px;
   }
 
   .marker {
-    width: 20px;
-    height: 20px;
+    position: absolute;
+    left: 11px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
     background: #4f4f4f;
-    margin-top: 30px;
-    z-index: 9999;
+    margin-top: 8px;
+    z-index: 2;
   }
 
   .information {
     width: 100%;
     color: #666;
+    padding: 0;
   }
 
   .information h3 {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px 0;
     font-size: 22px;
-    font-weight: 900;
+    font-weight: 800;
     color: #4f4f4f;
   }
 
   .information h5 {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: #4f4f4f;
   }
 
   .information span {
-    font-size: 20px;
+    font-size: 15px;
     color: #a4a4a4;
   }
 
   .information p {
     font-size: 1rem;
     line-height: 1.5em;
-    word-spacing: 1px;
     color: #686868be;
   }
-  .box-right {
-    text-align: start;
-    margin: 0 10px;
-  }
+
+  .box-right,
   .box-left {
-    text-align: end;
-    margin: 0 10px;
+    text-align: start;
+    margin: 0;
     direction: ltr;
-    unicode-bidi: isolate;
   }
 
   .cv {

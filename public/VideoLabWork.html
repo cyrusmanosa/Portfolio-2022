@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,19 +11,25 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&family=Noto+Sans+JP:wght@300&display=swap"
     />
-    <title>Multimedia Portfolio</title>
+    <title>Cyrus Man | Multimedia Portfolio</title>
 
-    <!-- logo -->
-    <div class="logo">
+        <meta name="description" content="Portfolio of Cyrus Man: photography, video, graphic design, and web." />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="logo">
       <a href="./index.html">
         <p>Cyrus Man</p>
       </a>
     </div>
-
-    <!-- catalogue -->
-    <ul>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+      <nav id="site-nav" aria-label="Main">
+        <ul>
       <li>
-        <a>School</a>
+        <button type="button" class="menu-label" aria-expanded="false">School</button>
         <ul class="dropdown">
           
           <li><a href="./Photography.html">Photography</a></li>
@@ -34,7 +40,7 @@
       </li>
 
       <li>
-        <a>Job</a>
+        <button type="button" class="menu-label" aria-expanded="false">Job</button>
         <ul class="dropdown">
           <li class="menu-F"><a href="./JobHK.html">Hong Kong</a></li>
           <li><a href="./JobMacao.html">Macao</a></li>
@@ -47,10 +53,11 @@
       <li><a href="./About.html">About</a></li>
       <li><a href="./Contact.html">Contact</a></li>
     </ul>
-  </head>
+      </nav>
+    </header>
 
-  <body>
-    <div class="PartChoose">
+    <main>
+      <div class="PartChoose">
       <div class="VideoInformation">
         <h1>Cafe Upstairs - 1</h1>
         <p>I will be responsible for directing the video, cinematography, video editing, and scriptwriting.</p>
@@ -101,15 +108,17 @@
         ></iframe>
       </div>
     </div>
-  </body>
+    </main>
 
-  <footer>
+    <footer class="site-footer">
     <p class="footer-email">
       <a href="mailto:Cyrusman2025@gmail.com">Cyrusman2025@gmail.com</a>
     </p>
-
     <p class="footer-information">
-      <min>Copyright&copy;<span id="year">2025</span> by Cyrus Man.</min>
+      Copyright &copy; <span id="year">2026</span> Cyrus Man
     </p>
   </footer>
+
+  <script src="./JS/site.js"></script>
+  </body>
 </html>
